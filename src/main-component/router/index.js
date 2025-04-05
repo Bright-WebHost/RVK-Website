@@ -36,7 +36,7 @@ const AllRoute = () => {
 
   return (
     <div className="App">
-      <BrowserRouter basename='/RVK-website-'>
+      <BrowserRouter basename='/RVK-Website'>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="home" element={<Homepage />} />
