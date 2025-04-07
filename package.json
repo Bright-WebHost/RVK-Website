@@ -1,7 +1,7 @@
 {
   "name": "bonso",
   "version": "0.1.0",
- "homepage": "https://Bright-WebHost/RVK-Website",
+ "homepage": "https://www.rvksteelandalloys.com/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
