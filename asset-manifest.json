@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RVK-Website/static/css/main.622dbccf.css",
-    "main.js": "/RVK-Website/static/js/main.1f411943.js",
+    "main.js": "/RVK-Website/static/js/main.875db15b.js",
     "static/js/787.823c83fe.chunk.js": "/RVK-Website/static/js/787.823c83fe.chunk.js",
     "static/media/contactbanner.png": "/RVK-Website/static/media/contactbanner.87577e9585ec41e3dd86.png",
     "static/media/aboutbanner.png": "/RVK-Website/static/media/aboutbanner.8671f86a784d87af9530.png",
@@ -74,11 +74,11 @@
     "static/media/sappot-shape.svg": "/RVK-Website/static/media/sappot-shape.de16c868c146a966fb9805f6739fe822.svg",
     "static/media/title-shape.svg": "/RVK-Website/static/media/title-shape.bfe66cc5a470d4747b0c0d08df351335.svg",
     "main.622dbccf.css.map": "/RVK-Website/static/css/main.622dbccf.css.map",
-    "main.1f411943.js.map": "/RVK-Website/static/js/main.1f411943.js.map",
+    "main.875db15b.js.map": "/RVK-Website/static/js/main.875db15b.js.map",
     "787.823c83fe.chunk.js.map": "/RVK-Website/static/js/787.823c83fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.622dbccf.css",
-    "static/js/main.1f411943.js"
+    "static/js/main.875db15b.js"
   ]
 }
