@@ -7,12 +7,7 @@ import pimg1 from '../../images/new/5.png'
 import pimg2 from '../../images/new/1.png'
 import pimg3 from '../../images/new/2.png'
 import pimg4 from '../../images/allimg/mainbanners/pop/8.jpg'
-import pimg5 from '../../images/allimg//mainservice/5.jpg'
 const PopSections = () => {
-
-    const ClickHandlar = () => {
-        window.scrollTo(10, 0);
-    }
 
     const settings = {
         dots: false,
@@ -52,12 +47,7 @@ const PopSections = () => {
         ],
     };
 
-    const [openTab, setOpenTab] = useState("construction")
-    const handleTabClick = (id) => {
-        setOpenTab(id)
-    }
-
-
+    const [openTab] = useState("construction");
 
     
     const Data = [
@@ -129,7 +119,7 @@ const PopSections = () => {
             </div>
             <div className="wpo-project-content">
                 <div className="container-fluid">
-                    {openTab == "construction" &&
+                    {openTab === "construction" &&
                         <div className="wpo-engeneer-slider">
                             <Slider {...settings}>
                                 {Data.slice(0, 4).map((project, pkey) => (

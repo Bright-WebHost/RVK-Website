@@ -15,10 +15,6 @@ const ServiceSinglePage = (props) => {
 
     const serviceDetails = Services.find(item => item.slug === slug)
 
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
-
     return (
         <Fragment>
             <Navbar Logo={Logo}/>

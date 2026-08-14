@@ -79,7 +79,7 @@ const BlogSingle = (props) => {
 
                             <div className="author-box">
                                 <div className="author-avatar">
-                                    <Link to="/blog-single/1" target="_blank"><img src={blog6} alt="" /></Link>
+                                    <Link to="/blog-single/1" target="_blank" rel="noopener noreferrer"><img src={blog6} alt="" /></Link>
                                 </div>
                                 <div className="author-content">
                                     <Link to="/blog-single/1" className="author-name">Author: Bernard Rodgers</Link>

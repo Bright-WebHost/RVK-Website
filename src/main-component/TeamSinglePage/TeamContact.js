@@ -50,7 +50,7 @@ const TeamContactForm = () => {
         }
 
         try {
-            const response = await axios.post('YOUR_BACKEND_ENDPOINT', formData);
+            await axios.post('YOUR_BACKEND_ENDPOINT', formData);
 
             setFormData({
                 name: '',

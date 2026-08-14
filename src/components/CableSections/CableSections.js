@@ -5,14 +5,9 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 // import Projects from "../../api/projects";
 import pimg1 from '../../images/new/5.png'
 import pimg2 from '../../images/new/1.png'
-import pimg4 from '../../images/allimg/mainbanners/pop/pop5.png'
 import pimg3 from '../../images/new/4.png'
 import pimg5 from '../../images/allimg//mainservice/5.jpg'
 const CableSections = () => {
-
-    const ClickHandlar = () => {
-        window.scrollTo(10, 0);
-    }
 
     const settings = {
         dots: false,
@@ -52,12 +47,7 @@ const CableSections = () => {
         ],
     };
 
-    const [openTab, setOpenTab] = useState("construction")
-    const handleTabClick = (id) => {
-        setOpenTab(id)
-    }
-
-
+    const [openTab] = useState("construction");
 
     
     const Data = [
@@ -137,7 +127,7 @@ const CableSections = () => {
             </div>
             <div className="wpo-project-content">
                 <div className="container-fluid">
-                    {openTab == "construction" &&
+                    {openTab === "construction" &&
                         <div className="wpo-engeneer-slider">
                             <Slider {...settings}>
                                 {Data.slice(0, 4).map((project, pkey) => (

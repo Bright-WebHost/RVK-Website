@@ -13,11 +13,11 @@ const ServiceCard = ({ img, title, sdescription, slug }) => {
                 </div>
                 <div className="wpo-service-content">
                     <div className="service-content-single">
-                      <Link to={`/${slug}`}>    <h2>{title}</h2></Link>
+                      <Link onClick={ClickHandler} to={`/${slug}`}>    <h2>{title}</h2></Link>
                     
                         <span>{sdescription}</span>
                     </div>
-                    <Link to={`/${slug}`} className="theme-btn-s2">
+                    <Link onClick={ClickHandler} to={`/${slug}`} className="theme-btn-s2">
   Details <i className="ti-arrow-right"></i>
 </Link>
                 </div>

@@ -1,23 +1,15 @@
 import React, { Fragment } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import PageTitle from '../../components/pagetitle/PageTitle'
-import About from '../../components/about/about';
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import CtaSection from '../../components/CtaSection/CtaSection';
-import TeamSection from '../../components/TeamSection/TeamSection';
-import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
 import Logo from '../../images/allimg/logo/RVKlogo.png'
-import Cta from '../../components/Cta/Cta';
 import simg1 from '../../images/allimg/Ducts/1.jpg'
 import simg2 from '../../images/allimg/Ducts/2.jpg'
-import simg3 from '../../images/allimg/mainservice/1.jpg'
 import simg4 from '../../images/allimg/Ducts/img3.png'
 import simg5 from '../../images/new/5.png'
 import Img1 from '../../images/new/6.png'
 // import Img1 from '../../images/allimg/service/1.jpg'
-import ServiceSidebar from '../ServiceSinglePage/sidebar';
-import { Link } from 'react-router-dom';
 import DuctsSections from '../../components/DuctsSections/DuctsSections';
 const Ducts = () => {
     return (

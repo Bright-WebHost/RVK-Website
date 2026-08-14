@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Services from '../../api/Services'
 import footerBg from '../../images/allimg/footer.jpg'
 import Shape1 from '../../images/sappot-shape.svg'
-import News1 from '../../images/news/img-01.jpg'
-import News2 from '../../images/news/img-01.jpg'
 import Footerlinks from '../../api/Footerlinks'
 
 
@@ -13,13 +11,7 @@ const ClickHandler = () => {
     window.scrollTo(10, 0);
 }
 
-const SubmitHandler = (e) => {
-    e.preventDefault()
-}
-
 const Footer = (props) => {
-
-    const [phoneNumber, setPhoneNumber] = useState('+91 8197 2561 35');
 
     return (
         <footer className="wpo-site-footer">
@@ -165,7 +157,7 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col col-lg-6 col-12">
-                            <p > Copyright &copy; 2025 RVK |  Powered By <a href="https://brightmedia.tech/" target='_blank' style={{color:'#FF5E14'}}> Bright Media</a></p>
+                            <p > Copyright &copy; 2025 RVK |  Powered By <a href="https://brightmedia.tech/" target='_blank' rel="noopener noreferrer" style={{color:'#FF5E14'}}> Bright Media</a></p>
                         </div> 
                         <div className="col col-lg-6 col-12">
                             <div className="social-widget">

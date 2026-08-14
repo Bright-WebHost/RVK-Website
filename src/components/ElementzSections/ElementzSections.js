@@ -4,15 +4,10 @@ import { Link } from "react-router-dom";
 import SectionTitle from "../SectionTitle/SectionTitle";
 // import Projects from "../../api/projects";
 import pimg1 from '../../images/new/5.png'
-import pimg2 from '../../images/allimg/mainbanners/ac/ac.jpg'
 import pimg4 from '../../images/new/2.png'
 import pimg3 from '../../images/new/4.png'
 import pimg5 from '../../images/allimg//mainservice/5.jpg'
 const ElementzSections = () => {
-
-    const ClickHandlar = () => {
-        window.scrollTo(10, 0);
-    }
 
     const settings = {
         dots: false,
@@ -52,12 +47,7 @@ const ElementzSections = () => {
         ],
     };
 
-    const [openTab, setOpenTab] = useState("construction")
-    const handleTabClick = (id) => {
-        setOpenTab(id)
-    }
-
-
+    const [openTab] = useState("construction");
 
     
     const Data = [
@@ -137,7 +127,7 @@ const ElementzSections = () => {
             </div>
             <div className="wpo-project-content">
                 <div className="container-fluid">
-                    {openTab == "construction" &&
+                    {openTab === "construction" &&
                         <div className="wpo-engeneer-slider">
                             <Slider {...settings}>
                                 {Data.slice(0, 4).map((project, pkey) => (

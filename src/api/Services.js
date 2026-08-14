@@ -13,7 +13,6 @@ import sSimg1 from '../images/service-single/img-1.jpg'
 import sSimg2 from '../images/service-single/img-2.jpg'
 import sSimg3 from '../images/service-single/img-3.jpg'
 import sSimg4 from '../images/service-single/img-4.jpg'
-import sSimg45 from '../images/service-single/img-4.jpg'
 // import sSimg5 from '../images/service-single/img-5.jpg'
 // import sSimg6 from '../images/service-single/img-6.jpg'
 

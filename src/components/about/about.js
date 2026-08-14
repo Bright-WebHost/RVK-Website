@@ -4,7 +4,6 @@ import SectionTitle from '../SectionTitle/SectionTitle'
 import abImg1 from '../../images/allimg/about1.jpg'
 import abImg2 from '../../images/allimg/about2.jpg'
 import abImg3 from '../../images/new/7.png'
-import Signeture from '../../images/signeture.png'
 import Shape1 from '../../images/about/about-shape-1.png'
 import Shape2 from '../../images/about/about-shape-2.png'
 

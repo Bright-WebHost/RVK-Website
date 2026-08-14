@@ -51,12 +51,7 @@ const ProjectSection = () => {
         ],
     };
 
-    const [openTab, setOpenTab] = useState("construction")
-    const handleTabClick = (id) => {
-        setOpenTab(id)
-    }
-
-
+    const [openTab] = useState("construction");
 
     
     const Data = [
@@ -160,7 +155,7 @@ const ProjectSection = () => {
             </div>
             <div className="wpo-project-content">
                 <div className="container-fluid">
-                    {openTab == "construction" &&
+                    {openTab === "construction" &&
                         <div className="wpo-engeneer-slider">
                             <Slider {...settings}>
                                 {Data.slice(0, 4).map((project, pkey) => (
@@ -179,7 +174,7 @@ const ProjectSection = () => {
                             </Slider>
                         </div>
                     }
-                    {openTab == "engeneering" &&
+                    {openTab === "engeneering" &&
                         <div className="wpo-engeneer-slider">
                             <Slider {...settings}>
                                 {Data.slice(3, 7).map((project, pkey) => (
@@ -198,7 +193,7 @@ const ProjectSection = () => {
                             </Slider>
                         </div>
                     }
-                    {openTab == "industry" &&
+                    {openTab === "industry" &&
                         <div className="wpo-engeneer-slider">
                             <Slider {...settings}>
                                 {Data.slice(5, 9).map((project, pkey) => (

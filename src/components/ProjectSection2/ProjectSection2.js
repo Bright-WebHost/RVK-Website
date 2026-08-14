@@ -1,13 +1,8 @@
 import Slider from 'react-slick';
-import { Link } from "react-router-dom";
-import SectionTitle from "../SectionTitle/SectionTitle";
 import Projects from "../../api/projects";
 
 
 const ProjectSection2 = () => {
-    const ClickHandlar = () => {
-        window.scrollTo(10, 0);
-    }
 
     const settings = {
         dots: false,

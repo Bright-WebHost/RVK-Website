@@ -5,11 +5,6 @@ import Shape1 from '../../images/team/shape.png'
 import TeamCard from "./TeamCard";
 
 
-const ClickHandler = () => {
-    window.scrollTo(10, 0);
-}
-
-
 const TeamSection = (props) => {
     return (
         <section className="wpo-team-section section-padding">

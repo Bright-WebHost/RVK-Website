@@ -11,7 +11,6 @@ import ProjectPage from '../ProjectPage/ProjectPage';
 import ProjectSinglePage from '../ProjectSinglePage/ProjectSinglePage';
 import AboutPage from '../AboutPage/AboutPage';
 import ShopPage from '../ShopPage'
-import ProductSinglePage from '../ProductSinglePage';
 import CartPage from '../CartPage';
 import CheckoutPage from '../CheckoutPage';
 import TeamPage from '../TeamPage/TeamPage';
